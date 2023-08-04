@@ -1,0 +1,3 @@
+build:clang --crosstool_top=//toolchain:clang_suite
+build:clang --cpu=amd64
+build:clang --host_crosstool_top=@bazel_tools//tools/cpp:toolchain
